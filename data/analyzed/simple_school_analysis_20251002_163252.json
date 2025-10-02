@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "analyzed_at": "2025-10-02T16:32:52.635915",
+    "model_used": "llama3.2:3b",
+    "total_schools": 2,
+    "successful_analyses": 2,
+    "failed_analyses": 0,
+    "success_rate": 100.0
+  },
+  "schools": {
+    "234567890_Camino_Nuevo_Charter_Academy": {
+      "file": "234567890_Camino_Nuevo_Charter_Academy.json",
+      "school_info": {
+        "cds_code": "234567890",
+        "school_name": "Camino Nuevo Charter Academy",
+        "county": "Los Angeles",
+        "district": "Camino Nuevo Charter Academy",
+        "email": "contact@caminonuevo.org",
+        "domain": "www.caminonuevo.org",
+        "website": "https://www.caminonuevo.org"
+      },
+      "analysis_result": {
+        "success": true,
+        "analysis": "Here is a brief analysis of Camino Nuevo Charter Academy:\n\n- Mission: To provide high-quality public education that caters to diverse learning styles, with a focus on community and family involvement.\n\n- Programs: Key programs include Transitional Kindergarten, Dual Language Program, Special Education, Jeri Weiss Mental Health Program, and Avance Teacher Residency.\n\n- Contact: Email: [not specified], Phone: [not specified].\n\n- Unique Features: Camino Nuevo Charter Academy is known for its personalized approach to education, celebrating the diversity of each student's learning style. The school also has a strong focus on community engagement and partnerships with local organizations.\n\n- Enrollment: To enroll, families can apply through the Priority Enrollment Application, which is open now for the 2026-27 school year. Applications must be received by January 26, 2025, to enter the lottery on February 6th.",
+        "model_used": "llama3.2:3b",
+        "school_name": "Camino Nuevo Charter Academy"
+      }
+    },
+    "123456789_Animo_Inglewood_Charter_High": {
+      "file": "123456789_Animo_Inglewood_Charter_High.json",
+      "school_info": {
+        "cds_code": "123456789",
+        "school_name": "Animo Inglewood Charter High",
+        "county": "Los Angeles",
+        "district": "Green Dot Public Schools",
+        "email": "info@greendot.org",
+        "domain": "www.greendot.org",
+        "website": "https://www.greendot.org"
+      },
+      "analysis_result": {
+        "success": true,
+        "analysis": "Here's a brief analysis of Animo Inglewood Charter High:\n\n- Mission: To provide high-quality education to all students, regardless of background or zip code, with the goal of helping them graduate ready for college, leadership, and life.\n\n- Programs: The school focuses on innovative teaching, personalized learning, and 7-Year-Pathways, which aims to prepare students for college and careers.\n\n- Contact: Website: https://www.greendot.org; Email not specified; Phone number not available.\n\n- Unique Features: Animo Inglewood Charter High is part of the Green Dot Public Schools network, a public charter school organization with 18 high-performing schools serving 10,000 students in grades 6-12 across Los Angeles. The school's commitment to equity and its focus on personalized learning set it apart.\n\n- Enrollment: To enroll or apply, visit the website at https://www.greendot.org and click on \"Enroll Now\" or contact the school directly for more information.",
+        "model_used": "llama3.2:3b",
+        "school_name": "Animo Inglewood Charter High"
+      }
+    }
+  }
+}

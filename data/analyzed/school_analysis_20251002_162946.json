@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "analyzed_at": "2025-10-02T16:29:46.808057",
+    "model_used": "llama3.1",
+    "ollama_url": "http://localhost:11434",
+    "total_schools": 2,
+    "successful_analyses": 0,
+    "failed_analyses": 2,
+    "success_rate": 0.0
+  },
+  "schools": {
+    "234567890_Camino_Nuevo_Charter_Academy": {
+      "file": "234567890_Camino_Nuevo_Charter_Academy.json",
+      "school_info": {
+        "cds_code": "234567890",
+        "school_name": "Camino Nuevo Charter Academy",
+        "county": "Los Angeles",
+        "district": "Camino Nuevo Charter Academy",
+        "email": "contact@caminonuevo.org",
+        "domain": "www.caminonuevo.org",
+        "website": "https://www.caminonuevo.org"
+      },
+      "analysis_result": {
+        "success": false,
+        "error": "Request failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+        "raw_response": "",
+        "model_used": "llama3.1"
+      }
+    },
+    "123456789_Animo_Inglewood_Charter_High": {
+      "file": "123456789_Animo_Inglewood_Charter_High.json",
+      "school_info": {
+        "cds_code": "123456789",
+        "school_name": "Animo Inglewood Charter High",
+        "county": "Los Angeles",
+        "district": "Green Dot Public Schools",
+        "email": "info@greendot.org",
+        "domain": "www.greendot.org",
+        "website": "https://www.greendot.org"
+      },
+      "analysis_result": {
+        "success": false,
+        "error": "Request failed: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+        "raw_response": "",
+        "model_used": "llama3.1"
+      }
+    }
+  }
+}

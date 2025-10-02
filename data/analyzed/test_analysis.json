@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "analyzed_at": "2025-10-02T16:29:51.899969",
+    "model_used": "llama3.2:3b",
+    "ollama_url": "http://localhost:11434",
+    "total_schools": 2,
+    "successful_analyses": 1,
+    "failed_analyses": 1,
+    "success_rate": 50.0
+  },
+  "schools": {
+    "234567890_Camino_Nuevo_Charter_Academy": {
+      "file": "234567890_Camino_Nuevo_Charter_Academy.json",
+      "school_info": {
+        "cds_code": "234567890",
+        "school_name": "Camino Nuevo Charter Academy",
+        "county": "Los Angeles",
+        "district": "Camino Nuevo Charter Academy",
+        "email": "contact@caminonuevo.org",
+        "domain": "www.caminonuevo.org",
+        "website": "https://www.caminonuevo.org"
+      },
+      "analysis_result": {
+        "success": false,
+        "error": "Failed to parse JSON: Expecting ',' delimiter: line 31 column 4 (char 1549)",
+        "raw_response": "Here is the comprehensive analysis in JSON format:\n\n{\n  \"school_summary\": {\n    \"name\": \"Camino Nuevo Charter Academy\",\n    \"type\": \"Charter school type (K-12)\",\n    \"mission_statement\": \"Every student should have the chance to go to a great school that puts their needs first, regardless of zip code, income, or ability level.\",\n    \"founded_year\": \"1999\",\n    \"enrollment\": \"3,200 students\",\n    \"grades_served\": \"TK-12\"\n  },\n  \"academic_programs\": {\n    \"special_programs\": [\"Dual Language Program\", \"Jeri Weiss Mental Health Program\"],\n    \"curriculum_focus\": \"Transitional Kindergarten through 12th grade education with a focus on college preparation and community engagement\",\n    \"college_prep\": \"College preparation programs available, but no specific statistics mentioned\",\n    \"extracurriculars\": [\"CNCA Soccer Field\", \"Community Service Programs\"]\n  },\n  \"contact_info\": {\n    \"primary_email\": \"Not specified\",\n    \"phone\": \"213-417-3400\",\n    \"address\": \"Not specified\",\n    \"social_media\": [\"Facebook\", \"Instagram\", \"Twitter\"]\n  },\n  \"key_features\": {\n    \"unique_selling_points\": [\"National recognition as a network of public charter schools\", \"Free to attend and open to all\"],\n    \"awards_recognition\": [\"Rudy Bruner Award for Urban Excellence (2003)\"],\n    \"partnerships\": [\"Community partnerships, but no specific details mentioned\"]\n  },\n  \"enrollment_info\": {\n    \"enrollment_process\": \"Apply online or by phone/email\",\n    \"deadlines\": \"January 26, 2025, for Priority Application Window; after that, added to waitlist\",\n    \"requirements\": \"No specific requirements mentioned\"\n  },\n  \"analysis_notes\": {\n    \"data_quality\": \"High (most information available)\",\n    \"missing_info\": [\"Address, primary email, and some program details\"],\n    \"confidence_level\": \"Medium\"",
+        "model_used": "llama3.2:3b"
+      }
+    },
+    "123456789_Animo_Inglewood_Charter_High": {
+      "file": "123456789_Animo_Inglewood_Charter_High.json",
+      "school_info": {
+        "cds_code": "123456789",
+        "school_name": "Animo Inglewood Charter High",
+        "county": "Los Angeles",
+        "district": "Green Dot Public Schools",
+        "email": "info@greendot.org",
+        "domain": "www.greendot.org",
+        "website": "https://www.greendot.org"
+      },
+      "analysis_result": {
+        "success": true,
+        "analysis": {
+          "school_summary": {
+            "name": "Green Dot Public Schools",
+            "type": "Charter school network with multiple schools",
+            "mission_statement": "Transforming public education to prepare students for success in college, leadership, and life",
+            "founded_year": "Not specified",
+            "enrollment": "23,000 students enrolled in Green Dot schools",
+            "grades_served": "K-12"
+          },
+          "academic_programs": {
+            "special_programs": [
+              "Excellence Begins with 𝙔𝙤𝙪: Elevating Teachers in Education",
+              "Shape the Future of Learning",
+              "Empower Educators"
+            ],
+            "curriculum_focus": "Rigorous academic programs, emphasis on teacher training and support",
+            "college_prep": "72% of Green Dot students are enrolled in college",
+            "extracurriculars": [
+              "Arts, music, sports, and community service programs"
+            ]
+          },
+          "contact_info": {
+            "primary_email": "Not specified",
+            "phone": "Not specified",
+            "address": "Not specified",
+            "social_media": [
+              "Twitter",
+              "Facebook",
+              "Instagram"
+            ]
+          },
+          "key_features": {
+            "unique_selling_points": [
+              "Small class sizes, personalized attention, emphasis on teacher training and support"
+            ],
+            "awards_recognition": [
+              "Named one of the top charter schools in Los Angeles by the LA Times"
+            ],
+            "partnerships": [
+              "Partnerships with local businesses and organizations to provide job training and career development opportunities"
+            ]
+          },
+          "enrollment_info": {
+            "enrollment_process": "Online application process, with optional in-person meetings",
+            "deadlines": "Application deadlines vary by school",
+            "requirements": [
+              "English proficiency, proof of residency, and immunization records"
+            ]
+          },
+          "analysis_notes": {
+            "data_quality": "High - most information is available, but some details are not specified",
+            "missing_info": [
+              "Specific details about each individual school within the network"
+            ],
+            "confidence_level": "Medium"
+          }
+        },
+        "raw_response": "Here is a comprehensive analysis of the provided content in JSON format:\n\n```\n{\n  \"school_summary\": {\n    \"name\": \"Green Dot Public Schools\",\n    \"type\": \"Charter school network with multiple schools\",\n    \"mission_statement\": \"Transforming public education to prepare students for success in college, leadership, and life\",\n    \"founded_year\": \"Not specified\",\n    \"enrollment\": \"23,000 students enrolled in Green Dot schools\",\n    \"grades_served\": \"K-12\"\n  },\n  \"academic_programs\": {\n    \"special_programs\": [\"Excellence Begins with 𝙔𝙤𝙪: Elevating Teachers in Education\", \"Shape the Future of Learning\", \"Empower Educators\"],\n    \"curriculum_focus\": \"Rigorous academic programs, emphasis on teacher training and support\",\n    \"college_prep\": \"72% of Green Dot students are enrolled in college\",\n    \"extracurriculars\": [\"Arts, music, sports, and community service programs\"]\n  },\n  \"contact_info\": {\n    \"primary_email\": \"Not specified\",\n    \"phone\": \"Not specified\",\n    \"address\": \"Not specified\",\n    \"social_media\": [\"Twitter\", \"Facebook\", \"Instagram\"]\n  },\n  \"key_features\": {\n    \"unique_selling_points\": [\"Small class sizes, personalized attention, emphasis on teacher training and support\"],\n    \"awards_recognition\": [\"Named one of the top charter schools in Los Angeles by the LA Times\"],\n    \"partnerships\": [\"Partnerships with local businesses and organizations to provide job training and career development opportunities\"]\n  },\n  \"enrollment_info\": {\n    \"enrollment_process\": \"Online application process, with optional in-person meetings\",\n    \"deadlines\": \"Application deadlines vary by school\",\n    \"requirements\": [\"English proficiency, proof of residency, and immunization records\"]\n  },\n  \"analysis_notes\": {\n    \"data_quality\": \"High - most information is available, but some details are not specified\",\n    \"missing_info\": [\"Specific details about each individual school within the network\"],\n    \"confidence_level\": \"Medium\"\n  }\n}\n```\n\nNote that I've made some inferences and assumptions based on the provided content, as some information was not explicitly stated. If you'd like me to revise or expand on any aspect of this analysis, please let me know!",
+        "model_used": "llama3.2:3b"
+      }
+    }
+  }
+}
